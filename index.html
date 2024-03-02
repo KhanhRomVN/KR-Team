@@ -6,11 +6,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assest(home)/style(home)/css(home)/general.css">
     <link rel="stylesheet" href="./assest(home)/style(home)/css(home)/nav.css">
-    <link rel="stylesheet" href="./assest(home)/style(home)/css(home)/main(new-ongoing-dropping).css">
+    <link rel="stylesheet" href="./assest(home)/style(home)/css(home)/main(new&dropping).css">
+    <link rel="stylesheet" href="./assest(home)/style(home)/css(home)/ongoing.css">
     <link rel="stylesheet" href="./assest(home)/style(home)/css(home)/foot.css">
     <link rel="stylesheet" href="./assest(home)/style(home)/css(home)/banner.css">
     <!-- Responsive -->
-    <link rel="stylesheet" href="./assest(home)/style(home)/reponse(home)/nav&banner_reponse.css">
+    <link rel="stylesheet" href="./assest(home)/style(home)/reponse(home)/nav_reponse.css">
+    <link rel="stylesheet" href="./assest(home)/style(home)/reponse(home)/banner_reponse.css">
     <link rel="stylesheet" href="./assest(home)/style(home)/reponse(home)/main(new-ongoing-dropping)_reponse.css">
     <link rel="stylesheet" href="./assest(home)/style(home)/reponse(home)/foot_reponse.css">
     <!-- Boxicons -->
@@ -35,7 +37,7 @@
                 </form>
             </div>
             <div class="nav_item nav_right">
-                <a href="#" class="nav_right_login nav_right_item">Login</a>
+                <a href="./other(site)/login/login.html" class="nav_right_login nav_right_item">Login</a>
                 <i class='bx bx-menu nav_right_item'></i>
             </div>
         </div>
@@ -94,13 +96,14 @@
         </div>
         <!-- ongoing -->
         <div class="ongoing">
+            <!-- ongoing container -->
             <div class="ongoing_container">
                 <div class="ongoing_item ongoing_top">
                     <p class="ongoing_top_title">- Ongoing -</p>
                     <div class="ongoing_top_btn">More</div>
                 </div>
                 <div class="ongoing_item ongoing_under">
-                    <a href="" class="ongoing_under_item">
+                    <a href="./other(site)/manga/atri_my_dear_moments/atri.html" class="ongoing_under_item">
                         <img src="./assest(home)/resource(home)/ongoing/Atri_my_dear_moments.jpg" alt="" class="ongoing_under_img">
                         <div class="ongoing_under_info">
                             <p class="ongoing_under_title">Atri -My Dear Moments-</p>
@@ -127,14 +130,35 @@
                     </a>
                 </div>
             </div>
-            <div id="ongoing_slider" class="hcg-slider">
-                <div class="hcg-slide-container">
-                <a href="#" class="hcg-slider-body">
-                    <a class="hcg-slides animated" style="display:flex">
-                        
-                    </a>
-                </a>
-            </div>
+            <!-- ongoing slider -->
+            <div class="ism-slider" data-play_type="loop" data-interval="3000" data-buttons="false" data-radios="false" id="ongoing_slider">
+                <ol>
+                    <li>
+                        <a href="" target="_self" >
+                            <img src="./assest(home)/resource(home)/ongoing/ongoing_sliders/atri_slide.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self">
+                            <img src="./assest(home)/resource(home)/ongoing/ongoing_sliders/mizukoshi_slide.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self">
+                            <img src="./assest(home)/resource(home)/ongoing/ongoing_sliders/onnanokono_slide.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self">
+                            <img src="./assest(home)/resource(home)/ongoing/ongoing_sliders/senpai_slide.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_self">
+                            <img src="./assest(home)/resource(home)/ongoing/ongoing_sliders/vampire_slide.jpg">
+                        </a>
+                    </li>
+                </ol>
             </div>
         </div>
         <!-- dropping -->
@@ -178,11 +202,9 @@
             </div>
         </div>
         <!-- JS -->
-        <!-- Banner -->
         <script src="./assest(home)/vendor(home)/JS/banner.js"></script>
-        <script src="./assest(home)/vendor(home)/JS/dropping.js"></script>
-        <script src="./assest(home)/vendor(home)/JS/ongoing.js"></script>
-
+        <script src="./assest(home)/vendor(home)/JS/ongoing_slider.js"></script>
+        <script src="./assest(home)/vendor(home)/JS/general(home).js"></script>
     </main>
 </body>
 </html>

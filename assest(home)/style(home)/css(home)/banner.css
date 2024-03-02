@@ -229,7 +229,7 @@ p.ism-badge a.ism-link {
 
 p.ism-badge a.ism-link:hover {
   color: #aaa;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .ism-zoom-in {
@@ -305,7 +305,6 @@ p.ism-badge a.ism-link:hover {
 #my-slider {
     width: 100%;
     height: 350px;
-    border-radius: 0;
 }
 
 #my-slider-ism-badge {
@@ -319,7 +318,7 @@ p.ism-badge a.ism-link:hover {
     display: block; visibility: visible;
 }
 
-#my-slider .ism-button-prev {
+#my-slider .ism-button-prev {   
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEX///////////////////////////////////////////9/gMdvAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAuUAAALlARv+XnsAAABUSURBVEjH7dYxCgAgEAPB8weX/39WFBtBbsFSY2sYyzXicDLq0wQDKQGQAKiJAZTEvC+IRgPBYAEyYOB1AAf4hAkTXxB5nySOGmaRw4pp5rhv34MOQwscJ7/MrxQAAAAASUVORK5CYII=);
     border-radius: 0 32px 32px 0; left: 0;
     left: 0;
